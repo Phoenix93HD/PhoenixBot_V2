@@ -3,7 +3,7 @@
  * Version 2.0.0
  * Robert Borghese
  */
-
+client.login(process.env.BOT_TOKEN);
 const DBM = {};
 const DiscordJS = DBM.DiscordJS = require('discord.js');
 
